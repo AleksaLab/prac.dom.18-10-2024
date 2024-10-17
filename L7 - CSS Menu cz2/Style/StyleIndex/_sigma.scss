@@ -1,0 +1,47 @@
+.szmegma {
+  width: 100vw;
+  border-top: 0.3em solid $color2;
+  border-left: 2em solid $color2;
+  &__content {
+    width: 100%;
+    height: auto;
+    @include center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 50px;
+    &--image {
+      width: 500px;
+      img {
+        width: 100%;
+      }
+    }
+    &--text {
+      padding: 2em;
+      width: 500px;
+      h1 {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20vw; /* Szerokość kontenera */
+  height: 20vh; /* Wysokość kontenera */
+}
+
+.block {
+  width: 100px; /* Szerokość bloku */
+  height: 100px; /* Wysokość bloku */
+  background-color: rgb(97, 36, 36); /* Kolor bloku */
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 30px;
+margin-right: 30px;
+
+
+ 
+}

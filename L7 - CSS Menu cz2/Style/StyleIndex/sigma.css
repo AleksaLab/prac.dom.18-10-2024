@@ -1,0 +1,30 @@
+
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: auto;
+}
+
+.cards {
+  width: 5px;
+  height: 5px;
+  padding: 20px;
+}
+
+.sec1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  margin: 80vh;
+  margin-top: 5%;
+}/*# sourceMappingURL=sigma.css.map */
